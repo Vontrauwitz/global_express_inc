@@ -54,7 +54,7 @@ const GetStartedModal = () => {
       </button>
 
       {showModal && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div ref={modalRef} className="bg-white p-8 rounded shadow-md text-black w-96">
             <h2 className="text-2xl mb-4">What are you looking for?</h2>
             <div className="flex flex-col items-center space-y-4">
