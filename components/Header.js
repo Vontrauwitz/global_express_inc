@@ -29,6 +29,11 @@ const Header = () => {
         <Link href={whatsappLink}>
           <WhatsappIcon className="w-6 h-6 text-white" />
         </Link>
+        <Link href="/admin/login">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+            Admin Login
+          </button>
+        </Link>
       </div>
     </header>
   );
